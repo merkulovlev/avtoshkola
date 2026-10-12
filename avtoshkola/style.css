@@ -1,0 +1,31 @@
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.facts{
+  border-spacing: 10px;
+  table-layout: fixed;
+}
+
+.fact{
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box;
+  padding: 15px;
+  height: 120px;
+  width: 25%;
+}
+
+
+.p-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.p-desc{
+  font-size: 14px;
+  margin: 0;
+}
