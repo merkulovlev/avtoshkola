@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true, // форматировать код при сохранении
+  "editor.tabSize": 2, // отступ из 2 пробелов (HTML, CSS, JS, Vue)
+  "editor.rulers": [
+    100
+  ], // вертикальная линия на 100 символах
+  "editor.wordWrap": "on", // переносить длинные строки
+  "files.autoSave": "afterDelay", // сохранять автоматически через секунду
+  "files.eol": "\n", // конец строки как в Linux: меньше проблем с Docker
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[php]": {
+    "editor.tabSize": 4
+  }, // в PHP принято 4 пробела
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  "git.autofetch": true, // сам проверять новые коммиты на GitHub
+  "git.confirmSync": false
+}

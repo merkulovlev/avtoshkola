@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профиль - Автошкола</title>
+</head>
+<body>
+  <header>
+        <a href="index.html"><strong>Автошкола</strong></a>
+        <nav aria-label="Основное меню">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Курсы</a></li>
+                <li><a href="instructors.html">Инструкторы</a></li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <main>
+    <h1>Личный кабинет</h1>
+
+    <section>
+      <h2>Мои данные</h2>
+      <dl>
+        <dt>Имя:</dt><dd>Меркулов Лев</dd>
+        <dt>E-mail:</dt><dd>lev@example.com</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Мои занятия</h2>
+      <table>
+        <caption>Список занятий</caption>
+        <thead>
+          <tr>
+            <th scope="col">Категория</th>
+            <th scope="col">Дата</th>
+            <th scope="col">Занятие</th>
+            <th scope="col">Инструктор</th>
+          </tr>
+          <tbody>
+          <tr>
+            <td>Категория B</td>
+            <td><time datetime="2026-10-12">12.10.2026</time></td>
+            <td>1</td>
+            <td>Иванов Иван</td>
+            <td>
+              <form action="cancel.php" method="post">
+                <input type="hidden" name="booking_id" value="101">
+                <button type="submit">Отменить</button>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+        </thead>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
