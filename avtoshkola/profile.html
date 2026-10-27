@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-        <a href="index.html"><strong>Автошкола</strong></a>
+        <a href="index.html"><strong><img src="/icons/hero_2025-12-25_00-06-56-013.webp" width="=50px" height="30px">Автошкола Ресурс</strong></a>
         <nav aria-label="Основное меню">
             <ul>
                 <li><a href="index.html">Главная</a></li>
@@ -16,7 +16,8 @@
                 <li><a href="prices.html">Цены</a></li>
                 <li><a href="login.html">Вход</a></li>
                 <li><a href="register.html">Регистрация</a></li>
-                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="profile.html" aria-current="page">Личный кабинет</a></li>
+                <li><a href="contacts.html">Наши контакты</a></li>
             </ul>
         </nav>
     </header>
@@ -34,30 +35,35 @@
 
     <section>
       <h2>Мои занятия</h2>
+      <p>Список занятий</p>
       <table>
-        <caption>Список занятий</caption>
-        <thead>
           <tr>
             <th scope="col">Категория</th>
             <th scope="col">Дата</th>
             <th scope="col">Занятие</th>
             <th scope="col">Инструктор</th>
+            <th scope="col">Вид занятия</th>
           </tr>
-          <tbody>
           <tr>
             <td>Категория B</td>
             <td><time datetime="2026-10-12">12.10.2026</time></td>
             <td>1</td>
-            <td>Иванов Иван</td>
-            <td>
+            <td>Иванова Анастасия</td>
+            <td>Теория</td>
+            <tr>
+              <td>Категория B</td>
+              <td><time datetime="2026-10-12">25.10.2026</time></td>
+              <td>2</td>
+              <td>Иванов Иван</td>
+              <td>Практика</td>
+              <td>
               <form action="cancel.php" method="post">
                 <input type="hidden" name="booking_id" value="101">
                 <button type="submit">Отменить</button>
               </form>
             </td>
+            </tr>
           </tr>
-        </tbody>
-        </thead>
       </table>
     </section>
   </main>

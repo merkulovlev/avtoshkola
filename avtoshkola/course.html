@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <a href="index.html"><strong>Автошкола</strong></a>
+    <a href="index.html"><strong><img src="/icons/hero_2025-12-25_00-06-56-013.webp" width="=50px" height="30px">Автошкола Ресурс</strong></a>
       <nav aria-label="Основное меню">
         <ul>
           <li><a href="index.html">Главная</a></li>
@@ -17,7 +17,103 @@
           <li><a href="login.html">Вход</a></li>
           <li><a href="register.html">Регистрация</a></li>
           <li><a href="profile.html">Личный кабинет</a></li>
+          <li><a href="contacts.html">Наши контакты</a></li>
   </header>
+
+  <main>
+    <div>
+      <h3>Обучение онлайн</h3>
+      <p>Автошкола "Ресурс" предлагает пройти обучение теории онлайн, она включает в себя</p>
+      <ul>
+        <li>учебные пособия</li>
+        <li>конспекты ПДД</li>
+        <li>профессиональные видеоуроки и презентации</li>
+        <li>раздичные варианты тестирования по ПДД</li>
+        <li>прямые трансляции с преподавателем в режиме реального времени</li>
+      </ul>
+      <p>Для более подробного объяснения, звоните нам на этот номер +7(473) 876 54 32</p>
+      <p>Или оставьте заявку</p>
+      <form action="usluga.php" method="post">
+        <input type="hidden" name="usluga_id" value="1">
+
+        <p>
+          <label for="name">Ваше имя</label><br>
+          <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+        </p>
+        <p>
+          <label for="email">E-mail</label><br>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </p>
+        <p>
+          <label for="phone">Телефон</label><br>
+          <input type="phone" id="phone" name="phone" pattern="\+7\d{10}" placeholder="+79991234567"
+          title="Формат: +7 и 10 цифр без пробелов">
+        </p>
+        <button type ="submit">Оставить заявку</button>
+      </form>
+
+    </div>
+
+    <div>
+      <h3>Стать инструктором</h3>
+      <p>Наша автошкола "Ресурс" проводит дополнительные курсы <br>
+      по подготовке инструкторов по вождению.</p>
+      <p><strong>Эти курсы для Вас, если Вы</strong></p>
+      <p>Желаете работать с нами и обучать других ПДД и технике безопасного движения</p>
+      <p>Если вас заинтересовало, звоните нам на этот номер +7(473) 876 54 32</p>
+      <p>Или оставьте заявку</p>
+      <form action="usluga.php" method="post">
+        <input type="hidden" name="usluga_id" value="1">
+
+        <p>
+          <label for="name">Ваше имя</label><br>
+          <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+        </p>
+        <p>
+          <label for="email">E-mail</label><br>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </p>
+        <p>
+          <label for="phone">Телефон</label><br>
+          <input type="phone" id="phone" name="phone" pattern="\+7\d{10}" placeholder="+79991234567"
+          title="Формат: +7 и 10 цифр без пробелов">
+        </p>
+        <button type ="submit">Оставить заявку</button>
+      </form>
+    </div>
+
+    <div>
+      <h3>Контролёр технического состояния ТС</h3>
+      <p>Приглашем вас на обучение специалистов, ответственных за выпуск ТС на дорогу.</p>
+      <p>ПРОЙДЯ ОБУЧЕНИЕ, ВЫ СМОЖЕТЕ</p>
+      <ul>
+        <li>контролировать техническое состояние автотранспортных средств и прицепов.</li>
+        <li>осуществлять контроль за графиками проведения технического обслуживания</li>
+        <li>обеспечивать соблюдение норм расхода эксплуатационных материалов</li>
+        <li>организовывать доставку автотранспортных средств с линии (с объектов работ) <br>
+        на места стоянок в случаях аварии или дорожно-транспортных происшествий</li>
+      </ul>
+      <p>Или оставьте заявку</p>
+      <form action="usluga.php" method="post">
+        <input type="hidden" name="usluga_id" value="1">
+
+        <p>
+          <label for="name">Ваше имя</label><br>
+          <input type="text" id="name" name="name" required minlength="2" maxlength="50">
+        </p>
+        <p>
+          <label for="email">E-mail</label><br>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </p>
+        <p>
+          <label for="phone">Телефон</label><br>
+          <input type="phone" id="phone" name="phone" pattern="\+7\d{10}" placeholder="+79991234567"
+          title="Формат: +7 и 10 цифр без пробелов">
+        </p>
+        <button type ="submit">Оставить заявку</button>
+      </form>
+    </div>
+  </main>
 
   <footer><p>&copy; 2026 Автошкола Ресурс. Учебный проект. </p></footer>
 </body>
